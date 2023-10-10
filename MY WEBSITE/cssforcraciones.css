@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    background-color: red;
+    width: 67%;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+  }
+  
+  .menu li {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a:hover {
+    background: yellow;
+  }
+  

@@ -1,0 +1,31 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url("Underwater\ life.jpeg");
+  /* Asegúrate de que la URL de la imagen sea correcta */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  background-color: rgb(27, 2, 97);
+  width: 67%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: rgb(90, 126, 172);
+}
